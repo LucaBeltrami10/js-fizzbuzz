@@ -1,4 +1,8 @@
 
+/* BONUS 1: creo container nel quale inserire i 100 valori del ciclo. */
+/* creo container (provo direttamente da js) */
+const ulEl = document.createElement(ul)
+
 /* creo il ciclo per generare numeri da 1 a 100 */
 for (let i = 1; i <= 100; i++){
     /*creo condizione che mi mostri quello che voglio in base al resto delle divisioni */
