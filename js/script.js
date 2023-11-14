@@ -28,24 +28,31 @@ for (let i = 1; i <= 100; i++){
         const liElement = document.createElement('li')
         liElement.innerHTML = 'FizzBuzz'
         ulElement.appendChild(liElement)
-        /* Bonus 2 */
+        /* Bonus 2: applico classe css a li*/
+        liElement.className = 'bc-fizzbuzz'
     } else if(i%3 == 0){
         console.log('Fizz')
         /* Bonus 1: */
         const liElement = document.createElement('li')
         liElement.innerHTML = 'Fizz'
         ulElement.appendChild(liElement)
+        /* Bonus 2:*/
+        liElement.className = 'bc-fizz'
     }else if (i%5 == 0){
         console.log('Buzz')
         /* Bonus 1: */
         const liElement = document.createElement('li')
         liElement.innerHTML = 'Buzz'
         ulElement.appendChild(liElement)
+        /* Bonus 2:*/
+        liElement.className = 'bc-buzz'
     }else{
         console.log(i)
         /* Bonus 1: */
         const liElement = document.createElement('li')
         liElement.innerHTML = i
         ulElement.appendChild(liElement)
+        /* Bonus 2:*/
+        liElement.className = 'bc-norm'
     }
 }
