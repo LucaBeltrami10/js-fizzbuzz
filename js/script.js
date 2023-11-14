@@ -4,9 +4,11 @@
 const ulElement = document.createElement('ul')
 /* seleziono il body e assegno l'elemento (UL) come figlio del body */
 document.querySelector('body').appendChild(ulElement)
-/* creo e inserisco un contenuto di prova dentro ul */
-/* const liElement = document.createElement('li')
-let contenuto = 12121212
+
+/* creo elemento li */
+const liElement = document.createElement('li')
+
+/* let contenuto = 12121212
 liElement.innerHTMl = contenuto
 ulElement.appendChild(liElement) */
 
