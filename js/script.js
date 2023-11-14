@@ -23,12 +23,28 @@ for (let i = 1; i <= 100; i++){
     /* terza condizione: se il resto  /5 è 0 -> buzz*/
     /* altre condizioni: -> i*/
     if (i%3 == 0 && i%5 == 0){
-        console.log('fizzBuzz')
+        console.log('FizzBuzz')
+        /* Bonus 1: creo un elemento li, gli assegno un valore, lo aggiunto al parent */
+        const liElement = document.createElement('li')
+        liElement.innerHTML = 'FizzBuzz'
+        ulElement.appendChild(liElement)
     } else if(i%3 == 0){
         console.log('Fizz')
+        /* Bonus 1: */
+        const liElement = document.createElement('li')
+        liElement.innerHTML = 'Fizz'
+        ulElement.appendChild(liElement)
     }else if (i%5 == 0){
         console.log('Buzz')
+        /* Bonus 1: */
+        const liElement = document.createElement('li')
+        liElement.innerHTML = 'Buzz'
+        ulElement.appendChild(liElement)
     }else{
         console.log(i)
+        /* Bonus 1: */
+        const liElement = document.createElement('li')
+        liElement.innerHTML = i
+        ulElement.appendChild(liElement)
     }
 }
