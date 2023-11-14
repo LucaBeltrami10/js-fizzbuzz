@@ -1,7 +1,17 @@
 
 /* BONUS 1: creo container nel quale inserire i 100 valori del ciclo. */
 /* creo container (provo direttamente da js) */
-const ulEl = document.createElement(ul)
+const ulElement = document.createElement('ul')
+/* seleziono il body e assegno l'elemento (UL) come figlio del body */
+document.querySelector('body').appendChild(ulElement)
+/* creo e inserisco un contenuto di prova dentro ul */
+const liElement = document.createElement('li')
+let contenuto = 12121212
+liElement.innerHTMl = contenuto
+ulElement.appendChild(liElement)
+
+
+    
 
 /* creo il ciclo per generare numeri da 1 a 100 */
 for (let i = 1; i <= 100; i++){
