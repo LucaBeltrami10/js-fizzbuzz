@@ -13,7 +13,21 @@ ul{
 li{
     height: 20px;
     width: 70px;
-    background-color: lightcoral;
     margin: 10px 0 10px 10px;
 }
 
+.bc-fizzbus{
+    background-color:  #0E0E0E;
+}
+
+.bc-fizz{
+    background-color: #6FD000;
+}
+
+.bc-buzz{
+    background-color:  #EF780D;
+}
+
+.bc-norm{
+    background-color:  white;
+}
